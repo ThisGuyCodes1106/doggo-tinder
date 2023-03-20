@@ -1,0 +1,91 @@
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    margin: 1em auto;
+    padding: 0.1em 0.5em;
+    background: linear-gradient(#FFFFFF, #F6F7FB);
+}
+
+
+/* TOP SECTION */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0.5em;
+}
+
+.paw-icon {
+    padding: 0.5em 3em;
+    border-radius: 20%/50%;
+    background: linear-gradient(90deg,#F83375,#FA695A);
+}
+
+.top-icon {
+    width: 30px;
+    height: 30px;
+}
+
+
+/* PICTURE SECTION */
+.dog-pic {
+    position: relative;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.stamp {
+    position: absolute;
+    width: 200px;
+    transform: rotate(-25deg);
+    padding: 3em 1em;
+}
+
+.dog-info {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    text-shadow: 2px 2px 5px black;
+}
+
+.no-profiles {
+    height: 600px;
+    text-align: center;
+}
+.no-profiles p {
+    padding-top: 100px;
+}
+
+/* BOTTOM SECTION */
+.like-nope {
+    margin: 2em;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.choice-btn {
+    width: 40px;
+    background-color: white;
+    padding: 1.5em;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+}
+
+.like-btn:hover {
+    background-color: #DBFFF4;
+}
+
+.nope-btn:hover {
+    background-color: #FFE7EF;
+}
